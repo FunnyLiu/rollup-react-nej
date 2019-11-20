@@ -1,0 +1,42 @@
+{
+  "name": "rollup-react-nej",
+  "version": "1.0.0",
+  "description": "transform *.jsx to *.js with nej define",
+  "main": "rollup.config.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunnyLiu/rollup-react-nej.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FunnyLiu/rollup-react-nej/issues"
+  },
+  "homepage": "https://github.com/FunnyLiu/rollup-react-nej#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup-plugin-postcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "http-server": "^0.11.1",
+    "less": "^3.10.3",
+    "rollup": "^1.27.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
